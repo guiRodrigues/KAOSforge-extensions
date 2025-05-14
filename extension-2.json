@@ -1,0 +1,20 @@
+{
+  "nodes": [],
+  "edges": [],
+  "customNodes": [
+    {
+      "id": "custom-1747180683262",
+      "name": "Node 3",
+      "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"#FF9800\" stroke=\"#E65100\" stroke-width=\"3\"></rect>\n</svg>",
+      "color": "#6366f1",
+      "diagramType": "operation",
+      "createdAt": 1747180683262
+    }
+  ],
+  "customConnections": [],
+  "version": "1.0.0",
+  "extenstionName": "Variability Support",
+  "extensionDescription": "Define a component-based approach to specify trustworthy systems from the requirements phase to the specification phase, in the Cycab transportation domain.",
+  "author": "Semmak",
+  "link": "https://ceur-ws.org/Vol-341/paper3.pdf"
+}

@@ -1,0 +1,28 @@
+{
+  "nodes": [],
+  "edges": [],
+  "customNodes": [
+    {
+      "id": "custom-1747180391550",
+      "name": "Node 1",
+      "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <polygon points=\"50,10 90,80 10,80\" fill=\"#4CAF50\" stroke=\"#2E7D32\" stroke-width=\"3\"></polygon>\n</svg>",
+      "color": "#6366f1",
+      "diagramType": "goal",
+      "createdAt": 1747180391550
+    },
+    {
+      "id": "custom-1747180463813",
+      "name": "Node 2",
+      "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <polygon points=\"50,10 90,40 75,85 25,85 10,40\" fill=\"#00BCD4\" stroke=\"#00838F\" stroke-width=\"3\"></polygon>\n</svg>",
+      "color": "#6366f1",
+      "diagramType": "goal",
+      "createdAt": 1747180463813
+    }
+  ],
+  "customConnections": [],
+  "version": "1.0.0",
+  "extenstionName": "Safety and Security",
+  "extensionDescription": "A conceptual framework that integrates the domains of safety and security, serves as a foundation for the application of KAOS in the analysis of threats",
+  "author": "Lamddi",
+  "link": "https://www.scirp.org/journal/paperinformation?paperid=74479"
+}

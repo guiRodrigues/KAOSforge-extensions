@@ -1,0 +1,20 @@
+{
+  "nodes": [],
+  "edges": [],
+  "customNodes": [
+    {
+      "id": "custom-1747181051236",
+      "name": "Node 4",
+      "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"#D1C4E9\" stroke=\"#7E57C2\" stroke-width=\"3\"></circle>\n</svg>",
+      "color": "#6366f1",
+      "diagramType": "responsibility",
+      "createdAt": 1747181051236
+    }
+  ],
+  "customConnections": [],
+  "version": "1.0.0",
+  "extenstionName": "Lorem Ipsum",
+  "extensionDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at purus nibh. Fusce mi odio, accumsan quis sapien quis, ullamcorper congue justo. Sed lectus elit, dignissim eget elit at, placerat sodales tortor.",
+  "author": "Lorem Ipsum",
+  "link": "https://www.lipsum.com/feed/html"
+}
