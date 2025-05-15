@@ -1,0 +1,53 @@
+{
+  "nodes": [],
+  "edges": [],
+  "customNodes": [
+    {
+      "id": "custom-1747272352158",
+      "name": "Star",
+      "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <polygon points=\"50,10 61.8,35.3 90,38.2 70,57.3 74.6,85.3 50,72.5 25.4,85.3 30,57.3 10,38.2 38.2,35.3\" fill=\"#2196F3\" stroke=\"#0D47A1\" stroke-width=\"3\"></polygon>\n</svg>",
+      "color": "#6366f1",
+      "diagramType": "goal",
+      "createdAt": 1747272352158
+    }
+  ],
+  "customConnections": [
+    {
+      "id": "custom-connection-1747270863482",
+      "name": "Depends",
+      "description": "Indicates a dependency of two nodes",
+      "label": "depends",
+      "color": "#929000",
+      "lineStyle": "dashed",
+      "createdAt": 1747270863482,
+      "possibleSourceTypes": [
+        "goal",
+        "requirement"
+      ],
+      "possibleTargetTypes": [
+        "expectation",
+        "domainProperty"
+      ]
+    },
+    {
+      "id": "custom-connection-1747270914990",
+      "name": "Exceeds",
+      "description": "This is just an awesome description",
+      "label": "exceeds",
+      "color": "#942193",
+      "lineStyle": "solid",
+      "createdAt": 1747270914990,
+      "possibleSourceTypes": [
+        "expectation"
+      ],
+      "possibleTargetTypes": [
+        "custom-1747180391550"
+      ]
+    }
+  ],
+  "version": "1.0.0",
+  "extenstionName": "Awesome extension",
+  "extensionDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at purus nibh. Fusce mi odio, accumsan quis sapien quis, ullamcorper congue justo. Sed lectus elit, dignissim eget elit at, placerat sodales tortor.",
+  "author": "Guilherme",
+  "link": "https://ngdblog.africa/wp-content/uploads/2023/01/Wow-gif.gif"
+}
