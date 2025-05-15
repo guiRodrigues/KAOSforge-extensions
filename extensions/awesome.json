@@ -30,18 +30,18 @@
       ]
     },
     {
-      "id": "custom-connection-1747270914990",
-      "name": "Exceeds",
-      "description": "This is just an awesome description",
-      "label": "exceeds",
+      "id": "custom-connection-1747272584167",
+      "name": "Awesome",
+      "description": "Awesome description here",
+      "label": "awesome",
       "color": "#942193",
-      "lineStyle": "solid",
-      "createdAt": 1747270914990,
+      "lineStyle": "dashed",
+      "createdAt": 1747272584167,
       "possibleSourceTypes": [
-        "expectation"
+        "obstacle"
       ],
       "possibleTargetTypes": [
-        "custom-1747180391550"
+        "custom-1747272352158"
       ]
     }
   ],
