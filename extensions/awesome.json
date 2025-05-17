@@ -48,6 +48,7 @@
   "version": "1.0.0",
   "extenstionName": "Awesome extension",
   "extensionDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at purus nibh. Fusce mi odio, accumsan quis sapien quis, ullamcorper congue justo. Sed lectus elit, dignissim eget elit at, placerat sodales tortor.",
+  "tags": ["KAOS"],
   "author": "Guilherme",
-  "link": "https://ngdblog.africa/wp-content/uploads/2023/01/Wow-gif.gif"
+  "link": "https://ngdblog.africa/wp-content/uploads/2023/01/Wow-gif.gif",
 }
