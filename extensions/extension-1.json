@@ -23,6 +23,7 @@
   "version": "1.0.0",
   "extenstionName": "Safety and Security",
   "extensionDescription": "A conceptual framework that integrates the domains of safety and security, serves as a foundation for the application of KAOS in the analysis of threats",
+  "tags": ["KAOS"],
   "author": "Lamddi",
   "link": "https://www.scirp.org/journal/paperinformation?paperid=74479"
 }

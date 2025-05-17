@@ -15,6 +15,7 @@
   "version": "1.0.0",
   "extenstionName": "Variability Support",
   "extensionDescription": "Define a component-based approach to specify trustworthy systems from the requirements phase to the specification phase, in the Cycab transportation domain.",
+  "tags": ["KAOS"],
   "author": "Semmak",
   "link": "https://ceur-ws.org/Vol-341/paper3.pdf"
 }
