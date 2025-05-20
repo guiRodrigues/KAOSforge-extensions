@@ -46,7 +46,7 @@
     }
   ],
   "version": "1.0.0",
-  "extenstionName": "Awesome extension",
+  "extenstionName": "Enyo's extension",
   "extensionDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at purus nibh. Fusce mi odio, accumsan quis sapien quis, ullamcorper congue justo. Sed lectus elit, dignissim eget elit at, placerat sodales tortor.",
   "tags": ["KAOS", "Generic"],
   "author": "Guilherme",
