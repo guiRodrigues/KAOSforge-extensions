@@ -634,7 +634,8 @@
   ],
   "version": "1.0.0",
   "extenstionName": "AAL goal model",
-  "extensionDescription": " new theoretical framework for the conceptual modeling of personalized and context-aware systems is described which supports specification of customization for individual users and analyzing the interaction between the domain context and functionality.",
+  "extensionDescription": "A new theoretical framework for the conceptual modeling of personalized and context-aware systems is described which supports specification of customization for individual users and analyzing the interaction between the domain context and functionality.",
+  "tags": ["KAOS"],
   "author": "Alistair Sutcliffe and Pete Sawyer",
   "link": "https://core.ac.uk/download/pdf/16516449.pdf"
 }
