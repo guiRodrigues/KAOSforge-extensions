@@ -1,18 +1,300 @@
 {
-  "nodes": [],
-  "edges": [],
-  "customNodes": [
-    {
-      "id": "custom-1747180683262",
-      "name": "Node 3",
-      "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"#FF9800\" stroke=\"#E65100\" stroke-width=\"3\"></rect>\n</svg>",
-      "color": "#6366f1",
-      "diagramType": "operation",
-      "createdAt": 1747180683262
-    }
-  ],
-  "customConnections": [],
-  "version": "1.0.0",
+  {
+    "nodes": [
+      {
+        "id": "goal-1751601165684",
+        "type": "goal",
+        "position": {
+          "x": 320.14130869872463,
+          "y": 380.00539322107477
+        },
+        "data": {
+          "label": "Goal",
+          "isNew": false,
+          "diagramType": "Goal Diagram"
+        },
+        "width": 180,
+        "height": 60,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 320.14130869872463,
+          "y": 380.00539322107477
+        },
+        "dragging": false
+      },
+      {
+        "id": "requirement-1751601166034",
+        "type": "requirement",
+        "position": {
+          "x": 440.6601274118792,
+          "y": 547.5187025958217
+        },
+        "data": {
+          "label": "Requirement",
+          "isNew": false,
+          "diagramType": "Goal Diagram"
+        },
+        "width": 180,
+        "height": 80,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 440.6601274118792,
+          "y": 547.5187025958217
+        },
+        "dragging": false
+      },
+      {
+        "id": "goal-1751601175064",
+        "type": "goal",
+        "position": {
+          "x": 179.7225869582527,
+          "y": 570.9248011407218
+        },
+        "data": {
+          "label": "Hight Level Goal",
+          "isNew": false,
+          "diagramType": "Goal Diagram"
+        },
+        "width": 228,
+        "height": 60,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 179.7225869582527,
+          "y": 570.9248011407218
+        },
+        "dragging": false
+      },
+      {
+        "id": "custom-1751601549799",
+        "type": "custom",
+        "position": {
+          "x": 876.3983919638372,
+          "y": 619.501915969863
+        },
+        "data": {
+          "label": "Variant",
+          "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <polygon points=\"50,10 61.8,35.3 90,38.2 70,57.3 74.6,85.3 50,72.5 25.4,85.3 30,57.3 10,38.2 38.2,35.3\" fill=\"#2196F3\" stroke=\"#0D47A1\" stroke-width=\"3\"></polygon>\n</svg>",
+          "nodeColor": "#6366f1",
+          "customNodeId": "custom-1751601548670",
+          "isNew": true,
+          "diagramTypes": [
+            "goal"
+          ]
+        },
+        "width": 150,
+        "height": 150,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 876.3983919638372,
+          "y": 619.501915969863
+        },
+        "dragging": false
+      },
+      {
+        "id": "custom-1751601587013",
+        "type": "custom",
+        "position": {
+          "x": 951.6281676636016,
+          "y": 385.1523882918286
+        },
+        "data": {
+          "label": "Facet",
+          "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"#D1C4E9\" stroke=\"#7E57C2\" stroke-width=\"3\"></circle>\n</svg>",
+          "nodeColor": "#6366f1",
+          "customNodeId": "custom-1751601585583",
+          "isNew": true,
+          "diagramTypes": [
+            "goal"
+          ]
+        },
+        "width": 150,
+        "height": 150,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 951.6281676636016,
+          "y": 385.1523882918286
+        },
+        "dragging": false
+      },
+      {
+        "id": "custom-1751601612971",
+        "type": "custom",
+        "position": {
+          "x": 706.483474739805,
+          "y": 384.3137200215869
+        },
+        "data": {
+          "label": "Variation Point",
+          "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <polygon points=\"50,10 73.8,18.8 88.2,38.2 88.2,61.8 73.8,81.2 50,90 26.2,81.2 11.8,61.8 11.8,38.2 26.2,18.8\" fill=\"#FFCDD2\" stroke=\"#E57373\" stroke-width=\"3\"></polygon>\n</svg>",
+          "nodeColor": "#6366f1",
+          "customNodeId": "custom-1751601611946",
+          "isNew": true,
+          "diagramTypes": [
+            "goal"
+          ]
+        },
+        "width": 150,
+        "height": 150,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 706.483474739805,
+          "y": 384.3137200215869
+        },
+        "dragging": false
+      },
+      {
+        "id": "domainProperty-1751601692767",
+        "type": "domainProperty",
+        "position": {
+          "x": 1217.207963904651,
+          "y": 400.7978911115499
+        },
+        "data": {
+          "label": "Domain Property",
+          "isNew": false,
+          "diagramType": "Goal Diagram"
+        },
+        "width": 220,
+        "height": 80,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 1217.207963904651,
+          "y": 400.7978911115499
+        },
+        "dragging": false
+      }
+    ],
+    "edges": [
+      {
+        "type": "refinement",
+        "source": "custom-1751601612971",
+        "sourceHandle": null,
+        "target": "goal-1751601165684",
+        "targetHandle": null,
+        "id": "reactflow__edge-custom-1751601612971-goal-1751601165684"
+      },
+      {
+        "type": "custom-connection-1751601667603",
+        "source": "custom-1751601612971",
+        "sourceHandle": null,
+        "target": "custom-1751601587013",
+        "targetHandle": null,
+        "data": {
+          "color": "#942092",
+          "lineStyle": "solid",
+          "label": "concerns"
+        },
+        "id": "reactflow__edge-custom-1751601612971-custom-1751601587013"
+      },
+      {
+        "type": "custom-connection-1751601718630",
+        "source": "custom-1751601587013",
+        "sourceHandle": null,
+        "target": "domainProperty-1751601692767",
+        "targetHandle": null,
+        "data": {
+          "color": "#0096ff",
+          "lineStyle": "solid",
+          "label": "Is Featured"
+        },
+        "id": "reactflow__edge-custom-1751601587013-domainProperty-1751601692767"
+      },
+      {
+        "type": "custom-connection-1751601766599",
+        "source": "custom-1751601587013",
+        "sourceHandle": null,
+        "target": "custom-1751601549799",
+        "targetHandle": null,
+        "data": {
+          "color": "#008f51",
+          "lineStyle": "solid",
+          "label": "has"
+        },
+        "id": "reactflow__edge-custom-1751601587013-custom-1751601549799"
+      },
+      {
+        "type": "responsibility",
+        "source": "custom-1751601612971",
+        "sourceHandle": null,
+        "target": "requirement-1751601166034",
+        "targetHandle": null,
+        "id": "reactflow__edge-custom-1751601612971-requirement-1751601166034"
+      },
+      {
+        "type": "refinement",
+        "source": "goal-1751601175064",
+        "sourceHandle": null,
+        "target": "goal-1751601165684",
+        "targetHandle": null,
+        "id": "reactflow__edge-goal-1751601175064-goal-1751601165684"
+      }
+    ],
+    "customNodes": [
+      {
+        "id": "custom-1751601548670",
+        "name": "Variant",
+        "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <polygon points=\"50,10 61.8,35.3 90,38.2 70,57.3 74.6,85.3 50,72.5 25.4,85.3 30,57.3 10,38.2 38.2,35.3\" fill=\"#2196F3\" stroke=\"#0D47A1\" stroke-width=\"3\"></polygon>\n</svg>",
+        "color": "#6366f1",
+        "diagramTypes": [
+          "goal"
+        ],
+        "createdAt": 1751601548670
+      },
+      {
+        "id": "custom-1751601585583",
+        "name": "Facet",
+        "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"#D1C4E9\" stroke=\"#7E57C2\" stroke-width=\"3\"></circle>\n</svg>",
+        "color": "#6366f1",
+        "diagramTypes": [
+          "goal"
+        ],
+        "createdAt": 1751601585583
+      },
+      {
+        "id": "custom-1751601611946",
+        "name": "Variation Point",
+        "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <polygon points=\"50,10 73.8,18.8 88.2,38.2 88.2,61.8 73.8,81.2 50,90 26.2,81.2 11.8,61.8 11.8,38.2 26.2,18.8\" fill=\"#FFCDD2\" stroke=\"#E57373\" stroke-width=\"3\"></polygon>\n</svg>",
+        "color": "#6366f1",
+        "diagramTypes": [
+          "goal"
+        ],
+        "createdAt": 1751601611946
+      }
+    ],
+    "customConnections": [
+      {
+        "id": "custom-connection-1751601250145",
+        "name": "Test",
+        "color": "#4b5563",
+        "lineStyle": "solid",
+        "createdAt": 1751601250145
+      },
+      {
+        "id": "custom-connection-1751601667603",
+        "name": "Concerns",
+        "label": "concerns",
+        "color": "#942092",
+        "lineStyle": "solid",
+        "createdAt": 1751601667603
+      },
+      {
+        "id": "custom-connection-1751601718630",
+        "name": "Is Featured",
+        "label": "Is Featured",
+        "color": "#0096ff",
+        "lineStyle": "solid",
+        "createdAt": 1751601718630
+      },
+      {
+        "id": "custom-connection-1751601766599",
+        "name": "Has",
+        "label": "has",
+        "color": "#008f51",
+        "lineStyle": "solid",
+        "createdAt": 1751601766599
+      }
+    ],
+    "version": "1.0.0",
   "extenstionName": "Variability Support",
   "extensionDescription": "Define a component-based approach to specify trustworthy systems from the requirements phase to the specification phase, in the Cycab transportation domain.",
   "tags": ["KAOS"],

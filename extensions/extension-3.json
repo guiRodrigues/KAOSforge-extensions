@@ -1,20 +1,640 @@
 {
-  "nodes": [],
-  "edges": [],
-  "customNodes": [
+  "nodes": [
     {
-      "id": "custom-1747181051236",
-      "name": "Node 4",
-      "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"#D1C4E9\" stroke=\"#7E57C2\" stroke-width=\"3\"></circle>\n</svg>",
-      "color": "#6366f1",
-      "diagramType": "responsibility",
-      "createdAt": 1747181051236
+      "id": "obstacle-1751597862692",
+      "type": "obstacle",
+      "position": {
+        "x": 117.22806099780621,
+        "y": 183.10004274782216
+      },
+      "data": {
+        "label": "Overdose",
+        "isNew": false,
+        "diagramType": "Goal Diagram"
+      },
+      "width": 180,
+      "height": 80,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 117.22806099780621,
+        "y": 183.10004274782216
+      },
+      "dragging": false
+    },
+    {
+      "id": "obstacle-1751597876515",
+      "type": "obstacle",
+      "position": {
+        "x": 128.47922668522938,
+        "y": 326.78549660119927
+      },
+      "data": {
+        "label": "Forgets to take medicine",
+        "isNew": false,
+        "diagramType": "Goal Diagram"
+      },
+      "width": 292,
+      "height": 80,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 128.47922668522938,
+        "y": 326.78549660119927
+      },
+      "dragging": false
+    },
+    {
+      "id": "obstacle-1751597892670",
+      "type": "obstacle",
+      "position": {
+        "x": 314.52015759068126,
+        "y": 187.31850226697105
+      },
+      "data": {
+        "label": "Underdose",
+        "isNew": false,
+        "diagramType": "Goal Diagram"
+      },
+      "width": 180,
+      "height": 80,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 314.52015759068126,
+        "y": 187.31850226697105
+      },
+      "dragging": false
+    },
+    {
+      "id": "goal-1751597951459",
+      "type": "goal",
+      "position": {
+        "x": 177.58308486963006,
+        "y": -10.68147642265464
+      },
+      "data": {
+        "label": "Mantain [Is Healthy]",
+        "isNew": false,
+        "diagramType": "Goal Diagram"
+      },
+      "width": 260,
+      "height": 60,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 177.58308486963006,
+        "y": -10.68147642265464
+      }
+    },
+    {
+      "id": "goal-1751597970648",
+      "type": "goal",
+      "position": {
+        "x": 634.7349077771105,
+        "y": 117.52600581554299
+      },
+      "data": {
+        "label": "Achieve [Correct Medicinde Dose]",
+        "isNew": false,
+        "diagramType": "Goal Diagram"
+      },
+      "width": 364,
+      "height": 60,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 634.7349077771105,
+        "y": 117.52600581554299
+      }
+    },
+    {
+      "id": "requirement-1751598022725",
+      "type": "requirement",
+      "position": {
+        "x": 431.95341803599,
+        "y": 367.35283637060513
+      },
+      "data": {
+        "label": "Achieve [Medicine Taken]",
+        "isNew": false,
+        "diagramType": "Goal Diagram"
+      },
+      "width": 292,
+      "height": 80,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 431.95341803599,
+        "y": 367.35283637060513
+      }
+    },
+    {
+      "id": "domainProperty-1751598042598",
+      "type": "domainProperty",
+      "position": {
+        "x": 840.8342580116268,
+        "y": 343.67955776144225
+      },
+      "data": {
+        "label": "Mary wants to main healthy",
+        "isNew": false,
+        "diagramType": "Goal Diagram"
+      },
+      "width": 308,
+      "height": 80,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 840.8342580116268,
+        "y": 343.67955776144225
+      },
+      "dragging": false
+    },
+    {
+      "id": "goal-1751598087089",
+      "type": "goal",
+      "position": {
+        "x": 527.7793935947319,
+        "y": 521.1165211111681
+      },
+      "data": {
+        "label": "Achieve [Prompt to take medicine]",
+        "isNew": false,
+        "diagramType": "Goal Diagram"
+      },
+      "width": 364,
+      "height": 60,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 527.7793935947319,
+        "y": 521.1165211111681
+      },
+      "dragging": false
+    },
+    {
+      "id": "requirement-1751598109763",
+      "type": "requirement",
+      "position": {
+        "x": 979.4777801517464,
+        "y": 620.2034501019012
+      },
+      "data": {
+        "label": "Achieve [Release Dose]",
+        "isNew": false,
+        "diagramType": "Goal Diagram"
+      },
+      "width": 276,
+      "height": 80,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 979.4777801517464,
+        "y": 620.2034501019012
+      },
+      "dragging": false
+    },
+    {
+      "id": "goal-1751598164680",
+      "type": "goal",
+      "position": {
+        "x": 455.8282684909735,
+        "y": 650.1484316895958
+      },
+      "data": {
+        "label": "Achieve [Detect Undertaken Medicine]",
+        "isNew": false,
+        "diagramType": "Goal Diagram"
+      },
+      "width": 388,
+      "height": 60,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 455.8282684909735,
+        "y": 650.1484316895958
+      },
+      "dragging": false
+    },
+    {
+      "id": "requirement-1751598174142",
+      "type": "requirement",
+      "position": {
+        "x": 418.07981195361253,
+        "y": 753.9249148079645
+      },
+      "data": {
+        "label": "Maintain [Monitor Dispenser Tray]",
+        "isNew": false,
+        "diagramType": "Goal Diagram"
+      },
+      "width": 364,
+      "height": 80,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 418.07981195361253,
+        "y": 753.9249148079645
+      }
+    },
+    {
+      "id": "requirement-1751598205899",
+      "type": "requirement",
+      "position": {
+        "x": 75.97124792538091,
+        "y": 582.7953749764648
+      },
+      "data": {
+        "label": "Achieve [Remind Medicine Untaken]",
+        "isNew": false,
+        "diagramType": "Goal Diagram"
+      },
+      "width": 364,
+      "height": 80,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 75.97124792538091,
+        "y": 582.7953749764648
+      },
+      "dragging": false
+    },
+    {
+      "id": "custom-1751598743041",
+      "type": "custom",
+      "position": {
+        "x": 144.47722238411814,
+        "y": 423.8196744356968
+      },
+      "data": {
+        "label": "Mary 💁‍♀️",
+        "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <polygon points=\"95,50 85,30 15,30 5,50 15,70 85,70\" fill=\"#D1C4E9\" stroke=\"#7E57C2\" stroke-width=\"2\"></polygon>\n</svg>",
+        "nodeColor": "#6366f1",
+        "customNodeId": "custom-1751598740662",
+        "isNew": true,
+        "diagramTypes": [
+          "goal"
+        ]
+      },
+      "width": 150,
+      "height": 150,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 144.47722238411814,
+        "y": 423.8196744356968
+      }
+    },
+    {
+      "id": "custom-1751599068160",
+      "type": "custom",
+      "position": {
+        "x": -109.12473424153808,
+        "y": 336.35546527151007
+      },
+      "data": {
+        "label": "Avoid Intervention",
+        "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <path d=\"M15,60 Q2,60 2,50 Q2,40 15,40 Q20,25 35,25 Q50,25 60,35 Q70,20 80,30 Q90,35 85,45 Q98,50 90,60 Q85,65 70,65 Q50,65 30,65 Q20,65 15,60 Z\" fill=\"#FFFFFF\" stroke=\"#1976D2\" stroke-width=\"2\"></path>\n</svg>",
+        "nodeColor": "#6366f1",
+        "customNodeId": "custom-1751599067199",
+        "isNew": true,
+        "diagramTypes": [
+          "goal"
+        ]
+      },
+      "width": 150,
+      "height": 150,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": -109.12473424153808,
+        "y": 336.35546527151007
+      }
+    },
+    {
+      "id": "custom-1751599084148",
+      "type": "custom",
+      "position": {
+        "x": -162.6234973426897,
+        "y": 496.3698249836367
+      },
+      "data": {
+        "label": "Min. Intrusion",
+        "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <path d=\"M15,60 Q2,60 2,50 Q2,40 15,40 Q20,25 35,25 Q50,25 60,35 Q70,20 80,30 Q90,35 85,45 Q98,50 90,60 Q85,65 70,65 Q50,65 30,65 Q20,65 15,60 Z\" fill=\"#FFFFFF\" stroke=\"#1976D2\" stroke-width=\"2\"></path>\n</svg>",
+        "nodeColor": "#6366f1",
+        "customNodeId": "custom-1751599067199",
+        "isNew": true,
+        "diagramTypes": [
+          "goal"
+        ]
+      },
+      "width": 150,
+      "height": 150,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": -162.6234973426897,
+        "y": 496.3698249836367
+      }
+    },
+    {
+      "id": "custom-1751599229400",
+      "type": "custom",
+      "position": {
+        "x": -154.44191455425147,
+        "y": 647.4719817973805
+      },
+      "data": {
+        "label": "AAL",
+        "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <polygon points=\"95,50 85,30 15,30 5,50 15,70 85,70\" fill=\"#D1C4E9\" stroke=\"#7E57C2\" stroke-width=\"2\"></polygon>\n</svg>",
+        "nodeColor": "#6366f1",
+        "customNodeId": "custom-1751598740662",
+        "isNew": true,
+        "diagramTypes": [
+          "goal"
+        ]
+      },
+      "width": 150,
+      "height": 150,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": -154.44191455425147,
+        "y": 647.4719817973805
+      }
+    },
+    {
+      "id": "custom-1751599238174",
+      "type": "custom",
+      "position": {
+        "x": 845.5565961096279,
+        "y": 716.8664472493678
+      },
+      "data": {
+        "label": "AAL",
+        "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <polygon points=\"95,50 85,30 15,30 5,50 15,70 85,70\" fill=\"#D1C4E9\" stroke=\"#7E57C2\" stroke-width=\"2\"></polygon>\n</svg>",
+        "nodeColor": "#6366f1",
+        "customNodeId": "custom-1751598740662",
+        "isNew": true,
+        "diagramTypes": [
+          "goal"
+        ]
+      },
+      "width": 150,
+      "height": 150,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 845.5565961096279,
+        "y": 716.8664472493678
+      }
+    },
+    {
+      "id": "custom-1751599244893",
+      "type": "custom",
+      "position": {
+        "x": 1328.2709963181935,
+        "y": 575.9303935879055
+      },
+      "data": {
+        "label": "Dispenser",
+        "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <polygon points=\"95,50 85,30 15,30 5,50 15,70 85,70\" fill=\"#D1C4E9\" stroke=\"#7E57C2\" stroke-width=\"2\"></polygon>\n</svg>",
+        "nodeColor": "#6366f1",
+        "customNodeId": "custom-1751598740662",
+        "isNew": true,
+        "diagramTypes": [
+          "goal"
+        ]
+      },
+      "width": 150,
+      "height": 150,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1328.2709963181935,
+        "y": 575.9303935879055
+      },
+      "dragging": false
     }
   ],
-  "customConnections": [],
+  "edges": [
+    {
+      "type": "refinement",
+      "source": "goal-1751598164680",
+      "sourceHandle": null,
+      "target": "goal-1751598087089",
+      "targetHandle": null,
+      "id": "reactflow__edge-goal-1751598164680-goal-1751598087089"
+    },
+    {
+      "type": "refinement",
+      "source": "goal-1751598164680",
+      "sourceHandle": null,
+      "target": "requirement-1751598109763",
+      "targetHandle": null,
+      "id": "reactflow__edge-goal-1751598164680-requirement-1751598109763"
+    },
+    {
+      "type": "refinement",
+      "source": "requirement-1751598205899",
+      "sourceHandle": null,
+      "target": "goal-1751598087089",
+      "targetHandle": null,
+      "id": "reactflow__edge-requirement-1751598205899-goal-1751598087089"
+    },
+    {
+      "type": "custom-connection-1751599283128",
+      "source": "custom-1751599244893",
+      "sourceHandle": null,
+      "target": "requirement-1751598109763",
+      "targetHandle": null,
+      "data": {
+        "color": "#4b5563",
+        "lineStyle": "solid"
+      },
+      "id": "reactflow__edge-custom-1751599244893-requirement-1751598109763"
+    },
+    {
+      "type": "custom-connection-1751599283128",
+      "source": "custom-1751599238174",
+      "sourceHandle": null,
+      "target": "requirement-1751598174142",
+      "targetHandle": null,
+      "data": {
+        "color": "#4b5563",
+        "lineStyle": "solid"
+      },
+      "id": "reactflow__edge-custom-1751599238174-requirement-1751598174142"
+    },
+    {
+      "type": "custom-connection-1751599283128",
+      "source": "custom-1751599229400",
+      "sourceHandle": null,
+      "target": "requirement-1751598205899",
+      "targetHandle": null,
+      "data": {
+        "color": "#4b5563",
+        "lineStyle": "solid"
+      },
+      "id": "reactflow__edge-custom-1751599229400-requirement-1751598205899"
+    },
+    {
+      "type": "custom-connection-1751599283128",
+      "source": "obstacle-1751597876515",
+      "sourceHandle": null,
+      "target": "obstacle-1751597862692",
+      "targetHandle": null,
+      "data": {
+        "color": "#4b5563",
+        "lineStyle": "solid"
+      },
+      "id": "reactflow__edge-obstacle-1751597876515-obstacle-1751597862692"
+    },
+    {
+      "type": "custom-connection-1751599283128",
+      "source": "obstacle-1751597876515",
+      "sourceHandle": null,
+      "target": "obstacle-1751597892670",
+      "targetHandle": null,
+      "data": {
+        "color": "#4b5563",
+        "lineStyle": "solid"
+      },
+      "id": "reactflow__edge-obstacle-1751597876515-obstacle-1751597892670"
+    },
+    {
+      "type": "custom-connection-1751599414653",
+      "source": "obstacle-1751597862692",
+      "sourceHandle": null,
+      "target": "goal-1751597951459",
+      "targetHandle": null,
+      "data": {
+        "lineSvgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M40,10 L60,10 L60,40 L90,40 L90,60 L60,60 L60,90 L40,90 L40,60 L10,60 L10,40 L40,40 Z\" fill=\"#9E9E9E\" stroke=\"#424242\" stroke-width=\"2\"/>\n</svg>",
+        "color": "#4b5563",
+        "lineStyle": "dashed"
+      },
+      "id": "reactflow__edge-obstacle-1751597862692-goal-1751597951459"
+    },
+    {
+      "type": "custom-connection-1751599414653",
+      "source": "obstacle-1751597892670",
+      "sourceHandle": null,
+      "target": "goal-1751597951459",
+      "targetHandle": null,
+      "data": {
+        "lineSvgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M40,10 L60,10 L60,40 L90,40 L90,60 L60,60 L60,90 L40,90 L40,60 L10,60 L10,40 L40,40 Z\" fill=\"#9E9E9E\" stroke=\"#424242\" stroke-width=\"2\"/>\n</svg>",
+        "color": "#4b5563",
+        "lineStyle": "dashed"
+      },
+      "id": "reactflow__edge-obstacle-1751597892670-goal-1751597951459"
+    },
+    {
+      "type": "custom-connection-1751599283128",
+      "source": "goal-1751597970648",
+      "sourceHandle": null,
+      "target": "goal-1751597951459",
+      "targetHandle": null,
+      "data": {
+        "color": "#4b5563",
+        "lineStyle": "solid"
+      },
+      "id": "reactflow__edge-goal-1751597970648-goal-1751597951459"
+    },
+    {
+      "type": "refinement",
+      "source": "requirement-1751598022725",
+      "sourceHandle": null,
+      "target": "goal-1751597970648",
+      "targetHandle": null,
+      "id": "reactflow__edge-requirement-1751598022725-goal-1751597970648"
+    },
+    {
+      "type": "refinement",
+      "source": "goal-1751598087089",
+      "sourceHandle": null,
+      "target": "goal-1751597970648",
+      "targetHandle": null,
+      "id": "reactflow__edge-goal-1751598087089-goal-1751597970648"
+    },
+    {
+      "type": "refinement",
+      "source": "domainProperty-1751598042598",
+      "sourceHandle": null,
+      "target": "goal-1751597970648",
+      "targetHandle": null,
+      "id": "reactflow__edge-domainProperty-1751598042598-goal-1751597970648"
+    },
+    {
+      "type": "custom-connection-1751599283128",
+      "source": "custom-1751598743041",
+      "sourceHandle": null,
+      "target": "requirement-1751598022725",
+      "targetHandle": null,
+      "data": {
+        "color": "#4b5563",
+        "lineStyle": "solid"
+      },
+      "id": "reactflow__edge-custom-1751598743041-requirement-1751598022725"
+    },
+    {
+      "type": "custom-connection-1751599283128",
+      "source": "obstacle-1751597876515",
+      "sourceHandle": null,
+      "target": "custom-1751599068160",
+      "targetHandle": null,
+      "data": {
+        "color": "#4b5563",
+        "lineStyle": "solid"
+      },
+      "id": "reactflow__edge-obstacle-1751597876515-custom-1751599068160"
+    },
+    {
+      "type": "custom-connection-1751599283128",
+      "source": "custom-1751599084148",
+      "sourceHandle": null,
+      "target": "requirement-1751598205899",
+      "targetHandle": null,
+      "data": {
+        "color": "#4b5563",
+        "lineStyle": "solid"
+      },
+      "id": "reactflow__edge-custom-1751599084148-requirement-1751598205899"
+    }
+  ],
+  "customNodes": [
+    {
+      "id": "custom-1751598740662",
+      "name": "Human Actor",
+      "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <polygon points=\"95,50 85,30 15,30 5,50 15,70 85,70\" fill=\"#D1C4E9\" stroke=\"#7E57C2\" stroke-width=\"2\"></polygon>\n</svg>",
+      "color": "#6366f1",
+      "diagramTypes": [
+        "goal"
+      ],
+      "createdAt": 1751598740662
+    },
+    {
+      "id": "custom-1751599067199",
+      "name": "Soft Goal",
+      "svgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\">\n  <path d=\"M15,60 Q2,60 2,50 Q2,40 15,40 Q20,25 35,25 Q50,25 60,35 Q70,20 80,30 Q90,35 85,45 Q98,50 90,60 Q85,65 70,65 Q50,65 30,65 Q20,65 15,60 Z\" fill=\"#FFFFFF\" stroke=\"#1976D2\" stroke-width=\"2\"></path>\n</svg>",
+      "color": "#6366f1",
+      "diagramTypes": [
+        "goal"
+      ],
+      "createdAt": 1751599067199
+    }
+  ],
+  "customConnections": [
+    {
+      "id": "custom-connection-1751599283128",
+      "name": "Connect",
+      "color": "#4b5563",
+      "lineStyle": "solid",
+      "createdAt": 1751599283128
+    },
+    {
+      "id": "custom-connection-1751599414653",
+      "name": "COnnects",
+      "lineSvgCode": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M40,10 L60,10 L60,40 L90,40 L90,60 L60,60 L60,90 L40,90 L40,60 L10,60 L10,40 L40,40 Z\" fill=\"#9E9E9E\" stroke=\"#424242\" stroke-width=\"2\"/>\n</svg>",
+      "color": "#4b5563",
+      "lineStyle": "dashed",
+      "createdAt": 1751599414653
+    }
+  ],
   "version": "1.0.0",
-  "extenstionName": "Lorem Ipsum",
-  "extensionDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at purus nibh. Fusce mi odio, accumsan quis sapien quis, ullamcorper congue justo. Sed lectus elit, dignissim eget elit at, placerat sodales tortor.",
-  "author": "Lorem Ipsum",
-  "link": "https://www.lipsum.com/feed/html"
+  "extenstionName": "AAL goal model",
+  "extensionDescription": " new theoretical framework for the conceptual modeling of personalized and context-aware systems is described which supports specification of customization for individual users and analyzing the interaction between the domain context and functionality.",
+  "author": "Alistair Sutcliffe and Pete Sawyer",
+  "link": "https://core.ac.uk/download/pdf/16516449.pdf"
 }
